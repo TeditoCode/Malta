@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoundForge — Where Music Meets Technology</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="#top">Sound<span>Forge</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="primaryNav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#tickets" class="button button--small">Get Tickets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 2. HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <p class="eyebrow">October 17, 2026 · The Foundry, Berlin</p>
+        <h1 class="hero__title">SoundForge</h1>
+        <p class="hero__tagline">Where music meets technology.</p>
+        <p class="hero__desc">
+          One day of live builds, hands-on gear, and unfiltered talks from
+          the people shaping how music gets made — for artists, engineers,
+          and the curious alike.
+        </p>
+        <a href="#tickets" class="button">Get Tickets</a>
+      </div>
+      <svg class="hero__wave" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,60 C150,10 300,110 450,60 C600,10 750,110 900,60 C1050,10 1150,90 1200,60 L1200,120 L0,120 Z" />
+      </svg>
+    </section>
+
+    <!-- 3. ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>Why SoundForge?</h2>
+        <p class="section-intro">
+          SoundForge isn't a trade show. It's a working day for people who
+          build sound for a living — or want to start.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🎛️</div>
+            <h3>Live Builds</h3>
+            <p>Watch producers construct full tracks on stage, start to finish, using the same gear you can try yourself.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🎚️</div>
+            <h3>Gear Lab</h3>
+            <p>Hands-on stations with the newest synths, controllers, and software — no sign-up sheets, just plug in and play.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🎙️</div>
+            <h3>Industry Talks</h3>
+            <p>Working engineers and producers on what actually changed their process — no keynote fluff, just the craft.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SCHEDULE -->
+    <section class="schedule" id="schedule">
+      <div class="container">
+        <h2>Schedule</h2>
+        <p class="section-intro">One stage, one day, no overlapping tracks to choose between.</p>
+
+        <table class="schedule__table">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Session</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:00</td>
+              <td>Doors open &amp; coffee</td>
+            </tr>
+            <tr>
+              <td>09:30</td>
+              <td>Opening keynote</td>
+            </tr>
+            <tr>
+              <td>10:30</td>
+              <td>Live Build: Modular Synthesis</td>
+            </tr>
+            <tr>
+              <td>12:00</td>
+              <td>Lunch break</td>
+            </tr>
+            <tr>
+              <td>13:00</td>
+              <td>Panel: AI in Music Production</td>
+            </tr>
+            <tr>
+              <td>14:30</td>
+              <td>Gear Lab — hands-on session</td>
+            </tr>
+            <tr>
+              <td>16:00</td>
+              <td>Speaker talks</td>
+            </tr>
+            <tr>
+              <td>17:30</td>
+              <td>Closing set &amp; networking</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5. SPEAKERS -->
+    <section class="speakers" id="speakers">
+      <div class="container">
+        <h2>Speakers</h2>
+        <p class="section-intro">Four people who build, engineer, and research sound for a living.</p>
+
+        <div class="cards cards--speakers">
+          <article class="speaker-card">
+            <img src="https://placehold.co/400x400/1A1530/F2F0F7?text=Mara+Voss" alt="Portrait of Mara Voss" />
+            <h3>Mara Voss</h3>
+            <p class="speaker-card__role">Modular Synth Artist</p>
+          </article>
+
+          <article class="speaker-card">
+            <img src="https://placehold.co/400x400/1A1530/F2F0F7?text=Deshawn+Ilo" alt="Portrait of Deshawn Ilo" />
+            <h3>Deshawn Ilo</h3>
+            <p class="speaker-card__role">Lead Audio Engineer, Pulseworks</p>
+          </article>
+
+          <article class="speaker-card">
+            <img src="https://placehold.co/400x400/1A1530/F2F0F7?text=Anika+Ferro" alt="Portrait of Anika Ferro" />
+            <h3>Anika Ferro</h3>
+            <p class="speaker-card__role">Founder, Waveframe Instruments</p>
+          </article>
+
+          <article class="speaker-card">
+            <img src="https://placehold.co/400x400/1A1530/F2F0F7?text=Tomas+Reyes" alt="Portrait of Tomás Reyes" />
+            <h3>Tomás Reyes</h3>
+            <p class="speaker-card__role">AI Music Researcher</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6a. TICKETS / CTA -->
+    <section class="tickets" id="tickets">
+      <div class="container tickets__inner">
+        <h2>Get your ticket</h2>
+        <p class="section-intro">One day. One stage. Everything included.</p>
+
+        <div class="tickets__price">
+          <span class="tickets__amount">$79</span>
+          <span class="tickets__label">early bird, until Sept 1</span>
+        </div>
+
+        <a href="#" class="button button--large">Get Tickets</a>
+        <p class="tickets__note">Standard price $99 after Sept 1 · The Foundry, Berlin · Oct 17, 2026</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 6b. FOOTER -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="logo logo--footer" href="#top">Sound<span>Forge</span></a>
+
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#tickets">Tickets</a></li>
+        </ul>
+      </nav>
+
+      <ul class="footer-social">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">X</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
+
+      <p class="footer-copy">© 2026 SoundForge. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
