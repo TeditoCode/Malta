@@ -1,8 +1,6 @@
-/* ============================================================
-   SoundForge — stylesheet
-   ============================================================ */
 
-/* ---------- 1. Design tokens ---------- */
+
+/* 1. Design tokens */
 :root {
   /* Colours */
   --color-bg: #0E0B1A;
@@ -37,7 +35,7 @@
   --content-max: 1120px;
 }
 
-/* ---------- 2. Reset / base ---------- */
+/* 2. Reset / base */
 *,
 *::before,
 *::after {
@@ -95,11 +93,9 @@ button:focus-visible {
   padding-inline: var(--space-4);
 }
 
-/* ============================================================
-   3. Components
-   ============================================================ */
+/* 3. Components */
 
-/* -- Buttons -- */
+/* Buttons */
 .button {
   display: inline-block;
   background: var(--color-primary);
@@ -130,7 +126,7 @@ button:focus-visible {
   font-size: 1.125rem;
 }
 
-/* -- Section heading pattern -- */
+/* Section heading pattern */
 main section h2 {
   font-size: var(--fs-h2);
   text-align: center;
@@ -145,7 +141,7 @@ main section h2 {
   margin-bottom: var(--space-6);
 }
 
-/* -- Header / nav -- */
+/* Header / nav */
 .site-header {
   position: sticky;
   top: 0;
@@ -211,7 +207,7 @@ main section h2 {
   color: var(--color-primary);
 }
 
-/* -- Hero -- */
+/* Hero */
 .hero {
   position: relative;
   padding-top: var(--space-7);
@@ -266,7 +262,7 @@ main section h2 {
   opacity: 0.6;
 }
 
-/* -- About / feature cards -- */
+/* About / feature cards */
 .about {
   padding-block: var(--space-7);
 }
@@ -300,7 +296,7 @@ main section h2 {
   font-size: var(--fs-small);
 }
 
-/* -- Schedule -- */
+/* Schedule */
 .schedule {
   padding-block: var(--space-7);
   background: var(--color-surface);
@@ -342,7 +338,7 @@ main section h2 {
   border-bottom: none;
 }
 
-/* -- Speakers -- */
+/* Speakers */
 .speakers {
   padding-block: var(--space-7);
 }
@@ -370,7 +366,7 @@ main section h2 {
   font-size: var(--fs-small);
 }
 
-/* -- Tickets / CTA -- */
+/* Tickets / CTA */
 .tickets {
   padding-block: var(--space-7);
   background: var(--color-surface);
@@ -406,7 +402,7 @@ main section h2 {
   font-size: var(--fs-small);
 }
 
-/* -- Footer -- */
+/* Footer */
 .site-footer {
   padding-block: var(--space-5);
   border-top: 1px solid var(--color-border);
@@ -444,11 +440,9 @@ main section h2 {
   font-size: var(--fs-small);
 }
 
-/* ============================================================
-   4. Responsive — mobile first
-   ============================================================ */
+/* 4. Responsive — mobile first */
 
-/* ---- Mobile nav (below 768px) ---- */
+/* Mobile nav (below 768px) */
 @media (max-width: 767px) {
   .nav-toggle {
     display: flex;
@@ -483,7 +477,7 @@ main section h2 {
   }
 }
 
-/* ---- Tablet and up ---- */
+/* Tablet and up */
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -507,7 +501,7 @@ main section h2 {
   }
 }
 
-/* ---- Desktop and up ---- */
+/* Desktop and up */
 @media (min-width: 1120px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
